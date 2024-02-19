@@ -1,7 +1,7 @@
 
 # Welcome to your CDK Python project!
 
-This is a blank project for CDK development with Python.
+This is ank project for a challenge on AWS re/Start Program using CDK development with Python.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -31,10 +31,17 @@ If you are a Windows platform, you would activate the virtualenv like this:
 % .venv\Scripts\activate.bat
 ```
 
-Once the virtualenv is activated, you can install the required dependencies.
+Once the virtualenv is activated, you can install the required dependencies using `pip` or `poetry`.
+
+- `pip`
 
 ```
 $ pip install -r requirements.txt
+```
+
+- `poetry`
+```
+$ poetry install
 ```
 
 At this point you can now synthesize the CloudFormation template for this code.
